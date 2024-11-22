@@ -1,9 +1,5 @@
-defmodule MacroEnriquecedor.Repo do
+defmodule Meta.Repo do
   use Ecto.Repo,
-      otp_app: :mi_app,
-      adapter: Ecto.Adapters.Postgres
-
-  def start_link(opts) do
-    Ecto.Repo.start_link(__MODULE__, opts)
-  end
+    otp_app: :meta,
+    adapter: Ecto.Adapters.MyXQL
 end

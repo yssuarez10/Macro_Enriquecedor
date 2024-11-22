@@ -1,8 +1,9 @@
 defmodule Meta do
   alias Meta.User
   alias Meta.Repo
+  alias Meta.Generate.Connections
 
-  def newUser(name, email) do
+  def newUser(name, email)
     %User{}
     |> User.changeset(%{name: name, email: email})
     |> Repo.insert()
@@ -16,4 +17,3 @@ defmodule Meta do
         {:error, changeset}
     end
   end
-end
