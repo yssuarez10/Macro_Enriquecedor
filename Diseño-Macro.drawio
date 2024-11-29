@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.3">
+  <diagram name="Página-1" id="aBbtuEOYstcy5hkiB0JH">
+    <mxGraphModel dx="1886" dy="656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_NrGLp3aEKEJ8IFrXA-T-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="160" width="410" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="_NrGLp3aEKEJ8IFrXA-T-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="247.5" y="192.5" width="272.5" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="_NrGLp3aEKEJ8IFrXA-T-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="_NrGLp3aEKEJ8IFrXA-T-7" target="_NrGLp3aEKEJ8IFrXA-T-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_NrGLp3aEKEJ8IFrXA-T-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_NrGLp3aEKEJ8IFrXA-T-8" value="consumidor" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-105" y="190" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_NrGLp3aEKEJ8IFrXA-T-11" value="Api Rest" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="220" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_NrGLp3aEKEJ8IFrXA-T-16" value="Ecto" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=default;glass=0;shadow=0;dashed=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="230" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_NrGLp3aEKEJ8IFrXA-T-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="_NrGLp3aEKEJ8IFrXA-T-18" target="_NrGLp3aEKEJ8IFrXA-T-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_NrGLp3aEKEJ8IFrXA-T-18" value="Application" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="230" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_NrGLp3aEKEJ8IFrXA-T-19" value="Macro Validator" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="200" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_NrGLp3aEKEJ8IFrXA-T-21" value="Repo Manager" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="162.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_NrGLp3aEKEJ8IFrXA-T-22" value="Macro&lt;div&gt;Connections&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="260" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_NrGLp3aEKEJ8IFrXA-T-23" value="Microservicio de repositorios" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="245" y="130" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_NrGLp3aEKEJ8IFrXA-T-25" value="" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="735" y="90" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_NrGLp3aEKEJ8IFrXA-T-26" value="MySQL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="735" y="60" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_NrGLp3aEKEJ8IFrXA-T-27" value="" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="735" y="220" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_NrGLp3aEKEJ8IFrXA-T-28" value="Posgrest" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="730" y="190" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_NrGLp3aEKEJ8IFrXA-T-29" value="" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="735" y="350" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_NrGLp3aEKEJ8IFrXA-T-30" value="SQLite" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="735" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_NrGLp3aEKEJ8IFrXA-T-31" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.999;exitY=0.349;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="1" source="_NrGLp3aEKEJ8IFrXA-T-20" target="_NrGLp3aEKEJ8IFrXA-T-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="241" as="sourcePoint" />
+            <mxPoint x="570" y="195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_NrGLp3aEKEJ8IFrXA-T-32" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="_NrGLp3aEKEJ8IFrXA-T-20" target="_NrGLp3aEKEJ8IFrXA-T-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="255" as="sourcePoint" />
+            <mxPoint x="745" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_NrGLp3aEKEJ8IFrXA-T-33" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.009;exitY=0.691;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="1" source="_NrGLp3aEKEJ8IFrXA-T-20" target="_NrGLp3aEKEJ8IFrXA-T-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="260" as="sourcePoint" />
+            <mxPoint x="745" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
