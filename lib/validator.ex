@@ -1,4 +1,4 @@
-defmodule Meta.Validator do
+defmodule Validator do
   defmacro build(fields) do
     quote do
       def changeset(changeset, params \\ %{}) do

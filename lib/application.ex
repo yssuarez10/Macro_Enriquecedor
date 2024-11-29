@@ -1,13 +1,14 @@
-defmodule Meta.Application do
+defmodule MacroEnriquecedor.Application do
+
   use Application
 
   def start(_type, _args) do
     children = [
-      Meta.Repo
-      # otros procesos...
+#      MySQL.Repo,
+#      Posgrest.Repo
     ]
 
-    opts = [strategy: :one_for_one, name: Meta.Supervisor]
+    opts = [strategy: :one_for_one, name: Supervisor]
     Supervisor.start_link(children, opts)
   end
 end

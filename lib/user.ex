@@ -1,4 +1,4 @@
-defmodule Meta.User do
+defmodule User do
   use Ecto.Schema
 
   import Ecto.Changeset
@@ -9,7 +9,7 @@ defmodule Meta.User do
     timestamps()
   end
 
-  import Meta.Validator
+  import Validator
 
   build(%{
     name: %{
