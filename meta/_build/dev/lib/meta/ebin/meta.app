@@ -1,0 +1,10 @@
+{application,meta,
+             [{config_mtime,1730076547},
+              {optional_applications,[]},
+              {applications,[kernel,stdlib,elixir,logger,ecto_sql,myxql]},
+              {description,"meta"},
+              {modules,['Elixir.Meta','Elixir.Meta.Application',
+                        'Elixir.Meta.Repo','Elixir.Meta.User',
+                        'Elixir.Meta.Validator']},
+              {registered,[]},
+              {vsn,"0.1.0"}]}.
