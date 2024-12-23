@@ -42,11 +42,11 @@ config :phoenix, :json_library, Jason
 # of this file so it overrides the configuration defined above.
 import_config "#{config_env()}.exs"
 
-config :my_sql, MySQL.Repo,
+config :data_orchestrator, MacroEnriquecedor.Mysql.Repo,
+  show_sensitive_data_on_connection_error: true,
   username: "usuario",
   password: "secret",
   database: "elixir",
-  hostname: "db",
+  hostname: "mysql",
   port: 3306,
-  show_sensitive_data_on_connection_error: true,
-  pool_size: 10
+  pool_size: 1
