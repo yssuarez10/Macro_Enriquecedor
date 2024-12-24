@@ -17,7 +17,7 @@ defmodule DataOrchestrator.Application do
       # {DataOrchestrator.Worker, arg},
       # Start to serve requests, typically the last entry
       DataOrchestratorWeb.Endpoint,
-      MySQL.Repo
+      MacroEnriquecedor.Mysql.Repo
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html

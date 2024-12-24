@@ -14,7 +14,12 @@ config :data_orchestrator, DataOrchestratorWeb.Endpoint,
   code_reloader: true,
   debug_errors: true,
   secret_key_base: "GsNHhhrQVQNsm2c1TIDoCFIOgKiUkWSwWosfKq4AndEPN6ennyToSgLTeTPuK9rq",
-  watchers: []
+  watchers: [],
+  live_reload: [
+    patterns: [
+      ~r"lib/.*(ex)$"
+    ]
+  ]
 
 # ## SSL Support
 #
