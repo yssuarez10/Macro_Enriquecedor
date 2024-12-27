@@ -2,11 +2,11 @@ defmodule DataOrchestratorWeb.Router do
   use DataOrchestratorWeb, :router
 
   pipeline :api do
-    plug :accepts, ["json"]
+    plug(:accepts, ["json"])
   end
 
   scope "/api", DataOrchestratorWeb do
-    pipe_through :api
+    pipe_through(:api)
   end
 
   # Enable LiveDashboard and Swoosh mailbox preview in development
@@ -19,15 +19,15 @@ defmodule DataOrchestratorWeb.Router do
     import Phoenix.LiveDashboard.Router
 
     scope "/api", DataOrchestratorWeb do
-      pipe_through :api
-      post "/", Orchestrator, :show
-
+      pipe_through(:api)
+      post("/", Orchestrator, :execute)
     end
-    scope "/dev" do
-      pipe_through [:fetch_session, :protect_from_forgery]
 
-      live_dashboard "/dashboard", metrics: DataOrchestratorWeb.Telemetry
-      forward "/mailbox", Plug.Swoosh.MailboxPreview
+    scope "/dev" do
+      pipe_through([:fetch_session, :protect_from_forgery])
+
+      live_dashboard("/dashboard", metrics: DataOrchestratorWeb.Telemetry)
+      forward("/mailbox", Plug.Swoosh.MailboxPreview)
     end
   end
 end

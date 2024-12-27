@@ -26,22 +26,20 @@ interface Fields {
 
 interface Api {
   source: "Mysql" | "Postgres" | "Sqlite"; //Es un incremental se agragarán mas capacidades para conectarnos a distintas fuentes de datos
+  table: "tabla";
   upsert?: {
-    table: "tabla";
     where: Conditions[] | Condition | undefined;
     data: {
       fields: Fields[];
     };
   };
   select?: {
-    table: "tabla";
     where: Conditions[] | Condition;
     data: {
       fields: string[];
     };
   };
   delete?: {
-    table: "table";
     where: Conditions[] | Condition;
   };
 }
