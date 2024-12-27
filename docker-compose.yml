@@ -17,6 +17,7 @@ services:
     command: bash
     networks:
       - metaprograming
+
   db:
     image: mysql:8.0
     container_name: mysql
@@ -50,3 +51,4 @@ networks:
   metaprograming:
     driver: bridge
 # docker exec -it elixir /bin/bash
+# docker exec -it mysql mysql -u root -p

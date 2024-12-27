@@ -3,9 +3,20 @@
     <CLASSES>
       <root url="file://$PROJECT_DIR$/_build/dev/lib/jamdb_oracle/ebin" />
       <root url="file://$PROJECT_DIR$/_build/dev/lib/jamdb_oracle/ebin" />
+      <root url="file://$PROJECT_DIR$/_build/dev/lib/jamdb_oracle/ebin" />
+      <root url="file://$PROJECT_DIR$/_build/dev/lib/jamdb_oracle/ebin" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
+      <root url="file://$PROJECT_DIR$/deps/jamdb_oracle/lib" />
+      <root url="file://$PROJECT_DIR$/deps/jamdb_oracle/src" />
+      <root url="file://$PROJECT_DIR$/deps/jamdb_oracle/lib" />
+      <root url="file://$PROJECT_DIR$/deps/jamdb_oracle/src" />
+      <root url="file://$PROJECT_DIR$/deps/jamdb_oracle/src" />
+      <root url="file://$PROJECT_DIR$/deps/jamdb_oracle/lib" />
+      <root url="file://$PROJECT_DIR$/deps/jamdb_oracle/src" />
+      <root url="file://$PROJECT_DIR$/deps/jamdb_oracle/lib" />
+      <root url="file://$PROJECT_DIR$/deps/jamdb_oracle/src" />
       <root url="file://$PROJECT_DIR$/deps/jamdb_oracle/lib" />
       <root url="file://$PROJECT_DIR$/deps/jamdb_oracle/src" />
       <root url="file://$PROJECT_DIR$/deps/jamdb_oracle/lib" />
