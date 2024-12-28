@@ -1,7 +1,7 @@
 defmodule MacroEnriquecedor.Schema do
   require MacroEnriquecedor.Validator
 
-  defmacro create(schema_name, table_name, fields, _validations) do
+  defmacro create(schema_name, table_name, fields, validations) do
     quote do
       defmodule unquote(schema_name) do
         use Ecto.Schema
@@ -15,9 +15,9 @@ defmodule MacroEnriquecedor.Schema do
                end
              end)
            ))
-
-          # MacroEnriquecedor.Validator.build(unquote(validations))
         end
+
+        MacroEnriquecedor.Validator.build(unquote(validations))
       end
     end
   end

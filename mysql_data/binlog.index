@@ -28,5 +28,8 @@
 ./binlog.000028
 ./binlog.000029
 ./binlog.000030
+<<<<<<< HEAD
 ./binlog.000031
 ./binlog.000032
+=======
+>>>>>>> d396328 (Implementando la lógica para procesar el request)

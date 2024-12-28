@@ -29,8 +29,8 @@ interface Api {
   table: "tabla";
   action: "select" | "upsert" | "delete";
   data: {
-      schema_name: "nombre esquema"
-      where: Conditions[] | Condition | undefined;
-      fields: Fields[];
-  }
+    schema_name: "nombre esquema";
+    where: Conditions[] | Condition | undefined;
+    fields: Fields[];
+  };
 }
