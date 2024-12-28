@@ -16,7 +16,6 @@ defmodule Program do
         {:error, changeset} ->
            IO.puts("Error al crear el usuario: #{inspect(changeset.errors)}")
            {:error, changeset}
-#        Process.exit(_pid, :normal)
     end
   end
 
