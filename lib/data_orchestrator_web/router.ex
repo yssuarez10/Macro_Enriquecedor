@@ -20,11 +20,7 @@ defmodule DataOrchestratorWeb.Router do
 
     scope "/api", DataOrchestratorWeb do
       pipe_through :api
-      post "/upsert", Orchestrator, :upsert
-    end
-    scope "/api", DataOrchestratorWeb do
-      pipe_through :api
-      post "/select", Orchestrator, :select
+      post("/", Orchestrator, :execute)
     end
     scope "/dev" do
       pipe_through [:fetch_session, :protect_from_forgery]
